@@ -126,4 +126,76 @@ match score:
     case _:
         print('not sure')
 
+# 循环
 
+names=['Michael','bob','Tracy',"tao"]
+for name in names:
+    print(name)
+
+sum=0
+for x in [1,2,3,4,5,6,7,78,8,9,10]:
+    sum+=x
+    print(sum)
+print(sum)
+
+print(list(range(10)))
+
+sum=0
+for x in range(101):
+    sum+=x
+print(sum)
+
+sum=0
+
+n=99
+while n>0:
+    sum+=n
+    n=n-2
+print(sum)
+
+L=['bart','lisa','Adam']
+for x in L:
+    print(f"hello!,{x}")
+    print("hello,{}".format(x))
+    print("hello!%s" %x)
+
+n=1
+while n<=100:
+    if n>60:
+        break
+    # elif n%2!=0:
+    #     continue
+    print(n)
+    n=n+1
+print("END")
+
+names=['Michael','bob','tracy']
+scores=[95,75,85]
+d={"Michael":95,'Boy':75,'tracy':85}
+print(d['Michael'])
+print('boob'in d)
+
+print(d.get('bob'))
+print(d.get('too',-1))
+
+print(d.pop("Bob",-1))
+print(d.pop("Boy"))
+print(d)
+
+key=[1,3,45]
+# print(d[key]='a list')
+
+s={13,3,4,444,5,6,5,55,5}
+print(s)
+s.add(4433)
+s.remove(4)
+print(s)
+
+a='abc'
+print(a)
+b=a.replace('a','A')
+print(b)
+print(a)
+
+# 函数
+print(int(12.43))
